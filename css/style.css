@@ -1,0 +1,162 @@
+body{
+    background-color: #E6E6FA;
+    font-family: "Pridi", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    background-color: #BA55D3;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    background-color: #BA55D3;
+}
+
+main{
+    background-color: #DDA0DD;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: #BA55D3;
+    padding: 2%;
+}
+
+p{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 1.5;
+}
+
+h1{
+    text-align: center;
+    color: #6b0597;
+    line-height: 3;
+    font-size: 2em;
+}
+
+/*menu*/
+
+.logo{
+    width: 70%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+
+  @media only screen and (max-width: 1030px){
+    .menu-icon {
+      display: block;
+      padding-right: 10px;
+  }
+  
+  nav ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      background-color: rgba(225, 65, 65);
+      top: 60px;
+      left: 0;
+      z-index: 1;
+      padding: 0;
+  }
+  
+  #menu-toggle:checked + .menu-icon + ul {
+      display: flex;
+  }
+  
+  nav ul li {
+      text-align: center;
+      margin: 0;
+  }
+  
+  nav ul li a {
+      padding: 15px 0;
+  }
+  
+  nav ul li label {
+      /* width: 100%; */
+      display: block;
+  }
+}
+
+/*links menu*/
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+/*tabela*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
