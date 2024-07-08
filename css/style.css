@@ -3,6 +3,7 @@ body{
     font-family: "Pridi", serif;
     font-weight: 400;
     font-style: normal;
+    background-image: url(../img/wallpaper\ the\ eras\ tour.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -24,6 +25,7 @@ main{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15%;
 }
 
 footer{
@@ -49,6 +51,16 @@ h1{
 
 .logo{
     width: 70%;
+}
+
+.cabecalho{
+  display: flex;   
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
 }
 
 nav ul {
@@ -89,7 +101,7 @@ nav ul {
       flex-direction: column;
       width: 100%;
       position: absolute;
-      background-color: rgba(225, 65, 65);
+      background-color: #e9bee9a8;
       top: 60px;
       left: 0;
       z-index: 1;
@@ -144,7 +156,6 @@ a:link {
 /*tabela*/
 
 table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 80%;
     margin-left: auto;
