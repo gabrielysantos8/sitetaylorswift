@@ -21,11 +21,11 @@ nav{
 }
 
 main{
-    background-color: #DDA0DD;
+    background-color: #f0f0f0;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 footer{
@@ -50,7 +50,7 @@ h1{
 /*menu*/
 
 .logo{
-    width: 70%;
+    width: 50%;
 }
 
 .cabecalho{
@@ -169,5 +169,5 @@ td, th {
 }
   
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #DDA0DD;
 }
