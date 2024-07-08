@@ -1,0 +1,190 @@
+body{
+    background-color: #E6E6FA;
+    font-family: "Pridi", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(../img/wallpaper\ the\ eras\ tour.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    background-color: #ffff54;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    background-color: #ffff54;
+}
+
+main{
+    background-color: #fce251;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+section{
+  background-color: #ffff97;
+}
+
+footer{
+    background-color: #ffff54;
+    padding: 2%;
+}
+
+p{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 1.5;
+}
+
+h1{
+    text-align: center;
+    color: #d8b805;
+    line-height: 3;
+    font-size: 2em;
+}
+
+/*menu*/
+
+.logo{
+    width: 50%;
+}
+
+.cabecalho{
+  display: flex;   
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+
+  @media only screen and (max-width: 1030px){
+    .menu-icon {
+      display: block;
+      padding-right: 10px;
+  }
+  
+  nav ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      background-color: #e9bee9a8;
+      top: 60px;
+      left: 0;
+      z-index: 1;
+      padding: 0;
+  }
+  
+  #menu-toggle:checked + .menu-icon + ul {
+      display: flex;
+  }
+  
+  nav ul li {
+      text-align: center;
+      margin: 0;
+  }
+  
+  nav ul li a {
+      padding: 15px 0;
+  }
+  
+  nav ul li label {
+      /* width: 100%; */
+      display: block;
+  }
+}
+
+/*links menu*/
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+/*galeria*/
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-6{
+    width: 50%;
+}
+
+img{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.figurinotheeras{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+@media only screen and (max-width: 700px){
+  .col-6 {
+      width: 100%;
+  }
+
+}
