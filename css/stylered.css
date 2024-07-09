@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    background-color: #BA55D3;
+    background-color: #EE0000;
     padding: 2%;
     display: flex;
     justify-content: space-between;
@@ -17,11 +17,11 @@ header{
 }
 
 nav{
-    background-color: #BA55D3;
+    background-color:#EE0000;
 }
 
 main{
-    background-color: #DA70D6;
+    background-color:#a83c3c;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -29,11 +29,11 @@ main{
 }
 
 section{
-  background-color:#DDA0DD;
+  background-color: #fc6e56;
 }
 
 footer{
-    background-color: #BA55D3;
+    background-color:#EE0000;
     padding: 2%;
 }
 
@@ -46,7 +46,7 @@ p{
 
 h1{
     text-align: center;
-    color: #6b0597;
+    color: #8B0000;
     line-height: 3;
     font-size: 2em;
 }
@@ -170,14 +170,8 @@ a:link {
     width: 50%;
 }
 
-.galeria1{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.col-3{
-    width: 25%;
+.col-4{
+    width: 33.3% ;
 }
 
 img{
@@ -188,15 +182,10 @@ img{
 
 /*responsividade*/
 
-@media only screen and (max-width: 1100px) {
-    [class*="col-3"] {
-      width: 50%;
-    }
-  }
-  
+
 
 @media only screen and (max-width: 700px){
-    .col-3 {
+    .col-4 {
         width: 100%;
     }
 
@@ -207,6 +196,6 @@ img{
 
 iframe{
   width: 80%;
-  margin: 0 auto; 
+  margin: 0 auto; /* Define as margens automática (topo e baixo) e centraliza horizontalmente */
   display: block;
 }

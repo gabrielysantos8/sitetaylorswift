@@ -156,3 +156,9 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
+
+iframe{
+  width: 80%;
+  margin: 0 auto; /* Define as margens automática (topo e baixo) e centraliza horizontalmente */
+  display: block;
+}
