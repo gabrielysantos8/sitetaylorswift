@@ -54,7 +54,7 @@ h1{
 /*menu*/
 
 .logo{
-    width: 30%;
+    width: 50%;
 }
 
 .cabecalho{
@@ -94,7 +94,7 @@ nav ul {
     display: none;
   }
 
-  @media only screen and (max-width: 1030px){
+  @media only screen and (max-width: 1130px){
     .menu-icon {
       display: block;
       padding-right: 10px;
@@ -128,6 +128,10 @@ nav ul {
   nav ul li label {
       /* width: 100%; */
       display: block;
+  }
+
+  .logo{
+    width: 20%;
   }
 }
 
