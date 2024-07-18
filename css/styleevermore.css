@@ -1,0 +1,174 @@
+body{
+    background-color: #E6E6FA;
+    font-family: "Pridi", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(../img/wallpaper\ the\ eras\ tour.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    background-color: #8B4513;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    background-color: #8B4513;
+}
+
+main{
+  background-color: #a15015;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}
+
+section{
+  background-color: #c07540;
+}
+
+footer{
+    background-color: #8B4513;
+    padding: 3%;
+}
+
+p{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 1.5;
+}
+
+h1{
+    text-align: center;
+    color: #442108;
+    line-height: 3;
+    font-size: 2em;
+}
+
+/*menu*/
+
+.logo{
+    width: 70%;
+}
+
+.cabecalho{
+  display: flex;   
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+
+  @media only screen and (max-width: 1130px){
+    .menu-icon {
+      display: block;
+      padding-right: 10px;
+  }
+  
+  nav ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      background-color: #e9bee9a8;
+      top: 60px;
+      left: 0;
+      z-index: 1;
+      padding: 0;
+  }
+  
+  #menu-toggle:checked + .menu-icon + ul {
+      display: flex;
+  }
+  
+  nav ul li {
+      text-align: center;
+      margin: 0;
+  }
+  
+  nav ul li a {
+      padding: 15px 0;
+  }
+  
+  nav ul li label {
+      /* width: 100%; */
+      display: block;
+  }
+
+  .logo{
+    width: 20%;
+  }
+}
+
+/*links menu*/
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+iframe{
+  width: 80%;
+  margin: 0 auto; /* Define as margens automática (topo e baixo) e centraliza horizontalmente */
+  display: block;
+}
+
+img{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
